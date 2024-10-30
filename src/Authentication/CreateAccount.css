@@ -1,0 +1,33 @@
+/* CreateAccount.css */
+
+.form-container {
+    background-color: #E5DCFC; /* Light purple background */
+    padding: 20px; /* Padding around the form */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .gender-option {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .gender-option.selected {
+    border: 2px solid #6f42c1; /* Highlight border for selected option */
+    opacity: 1; /* Full opacity for selected option */
+  }
+  
+  .text-purple {
+    color: #6f42c1; /* Purple color for text */
+  }
+  
+  a {
+    color: #3a0b75; /* Link color */
+    text-decoration: none; /* No underline */
+  }
+  
+  a:hover {
+    color: #5a1772; /* Darker color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
